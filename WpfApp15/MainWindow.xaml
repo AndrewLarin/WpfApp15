@@ -1,0 +1,132 @@
+﻿<Window x:Class="WpfApp15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="500">
+    <Grid>
+        <FlowDocumentScrollViewer>
+                <FlowDocument>
+                    <Paragraph>
+
+                        <Hyperlink FontSize="20" FontWeight="Black" NavigateUri="https://memepedia.ru/tanec-uensdej/">Лучшие мемы 2022</Hyperlink>
+                    </Paragraph>
+                    <Paragraph>
+                        Вот как выглядит топ-10 мемов прошедшего года по версии ВК и Мемепедии:
+                    </Paragraph>
+                    <List MarkerStyle="Decimal">
+                        <ListItem>
+                            <Paragraph>
+                                Мистер Исключительный
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                Доктор Ливси идет
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                Мудрое таинственное дерево
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                Это ты? Да, я
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                Котенок Вирго
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                Крутые скелеты
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                Нейросеть Different Dimension Me
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                Нейросеть Midjourney
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                Говорящий Бен
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                Эй, Богдан
+                            </Paragraph>
+                        </ListItem>
+                    </List>
+                    <Section FontFamily="Arial" FontSize="12">
+                        <Table>
+                            <Table.Columns>
+                                <TableColumn Width="*"/>
+                                <TableColumn Width="4*"/>
+                            </Table.Columns>
+                            <TableRowGroup>
+                                <TableRow>
+                                    <TableCell BorderBrush="Black" Padding="5">
+                                        <Paragraph FontWeight="Bold" TextAlignment="Center">
+                                            Позиция
+                                        </Paragraph>
+                                    </TableCell>
+                                    <TableCell BorderBrush="Black" Padding="5">
+                                        <Paragraph FontWeight="Bold" TextAlignment="Center">
+                                            Мой личный рейтинг мемов
+                                        </Paragraph>
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell BorderBrush="Black" Padding="5">
+                                        <Paragraph>
+                                            Топ 1
+                                        </Paragraph>
+                                    </TableCell>
+                                    <TableCell BorderBrush="Black" Padding="5">
+                                        <Paragraph>
+                                            <Image Source="Data/1.jpg"/>
+                                        </Paragraph>
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell BorderBrush="Black"  Padding="5">
+                                        <Paragraph >
+                                            Топ 1.1
+                                        </Paragraph>
+                                    </TableCell>
+                                    <TableCell BorderBrush="Black" Padding="5">
+                                        <Paragraph>
+                                            <Image Source="Data/2.jpg"/>
+                                        </Paragraph>
+                                    </TableCell>
+                                </TableRow>
+                            <TableRow>
+                                <TableCell BorderBrush="Black" Padding="5">
+                                    <Paragraph>
+                                        Топ 1.2
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" Padding="5">
+                                    <Paragraph>
+                                        <Image Source="Data/3.jpg"/>
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                        </Table>
+                    </Section>
+                </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
